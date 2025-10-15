@@ -144,3 +144,7 @@ This removes the cron job and `/usr/local/sbin/disk-cleanup`.
 - The script performs age-based cleanup for `/tmp`, `/var/tmp`, and rotated logs; it avoids live logs and non-rotated log files.
 - Docker pruning never touches running containers. Volume pruning removes only unused volumes.
 - Always test manually first with a high `THRESHOLD_GB` to see actions and logs.
+
+## License
+
+This project is licensed under the MIT License. You may use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software subject to the terms set forth in the license. See `LICENSE` for the complete text and conditions.
